@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className={styles.footer}>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         <div>
           <div className={styles.title}>{t('contact')}</div>
           <div className={styles.text}>
@@ -66,6 +66,14 @@ export default function Footer() {
               Next.js
             </a>
           </div>
+        </div>
+
+        <div className="text-center w-32 max-full">
+          <img
+            src="https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/202.jpg"
+            alt="wechat"
+            className="w-full"
+          />
         </div>
       </div>
     </footer>
